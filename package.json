@@ -1,6 +1,6 @@
 {
     "name": "babel-jsx-utils",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Utilities for working with Babel and JSX",
     "main": "dist/index.js",
     "license": "MIT",
@@ -25,9 +25,13 @@
         "prettier": "^2.1.2",
         "typescript": "^4.0.2"
     },
+    "files": [
+        "dist"
+    ],
     "scripts": {
         "start": "microbundle watch --target node",
         "build": "microbundle build --target node",
+        "prepublishOnly": "yarn build",
         "test": "jest",
         "lint": "eslint src"
     }
