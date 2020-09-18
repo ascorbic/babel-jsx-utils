@@ -44,6 +44,19 @@ export function Logo() {
 }
 ```
 
+## Installation
+
+Install:
+
+```shell
+yarn install babel-jsx-utils
+```
+or
+
+```shell
+npm install babel-jsx-utils
+```
+
 ## Usage
 
 ```js
